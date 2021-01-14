@@ -14,6 +14,7 @@ desired_caps['app'] = PATH('test-app-2.apk')
 
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
+driver.find_element_by_xpath("//*[@text='SIGNIN']").click()
 
 if __name__ == '__main__':
     pass
