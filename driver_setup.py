@@ -18,5 +18,4 @@ def driver():
         'platformVersion': '11.0',
         'deviceName': 'Android Emulator',
         'app': _path('test-app.apk')}
-    driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-
+    return webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
