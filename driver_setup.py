@@ -17,5 +17,18 @@ def driver():
         'platformName': 'Android',
         'platformVersion': '11.0',
         'deviceName': 'Android Emulator',
-        'app': _path('test-app.apk')}
+        'app': _path('apks/test-app.apk')}
+    return webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+
+
+@pytest.fixture(scope="session")
+def whatsapp_driver():
+    desired_caps = {
+        'platformName': 'Android',
+        'platformVersion': '11.0',
+        'deviceName': 'Android Emulator',
+        'noReset': True,
+        'appActivity': 'com.whatsapp.HomeActivity',
+        'appPackage': 'com.whatsapp',
+        'app': _path('apks/WhatsApp.apk')}
     return webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
