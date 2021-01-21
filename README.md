@@ -22,4 +22,6 @@ Intended to be a simple introduction to Appium in Python, with some good example
 
 ## Start UI Automator
 
+UI Automator is included in Android SDK tools. This can be used to get the element IDs of an app.
+
 1. `C:\Users\Leon\AppData\Local\Android\Sdk\tools\bin\uiautomatorviewer.bat`
