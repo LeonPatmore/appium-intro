@@ -6,7 +6,7 @@ import time
 import pytest
 from appium.webdriver.webdriver import WebDriver
 
-from driver_setup import test_driver, whatsapp_driver
+from driver_setup import test_driver, whatsapp_driver, messenger_driver
 
 # Test app IDs
 SIGN_IK_ID = "com.Testing.karthik.extractionofuserid:id/signin"
@@ -22,6 +22,7 @@ ANDROID_MESSAGE = "android:id/message"
 
 _test_driver = test_driver
 _whatsapp_driver = whatsapp_driver
+_messenger_driver = messenger_driver
 
 
 @pytest.fixture(autouse=True)
@@ -59,3 +60,8 @@ def test_whatsapp_registration_with_invalid_us_phone(_whatsapp_driver):
     time.sleep(1)
 
     assert _whatsapp_driver.find_element_by_id(ANDROID_MESSAGE).text == WHATSAPP_WRONG_US_NUMBER_ERROR_TEXT
+
+
+def test_messenger(_messenger_driver):
+    a = 1
+    pass

@@ -45,3 +45,19 @@ def whatsapp_driver(request):
     })
     request.addfinalizer(lambda: quit_driver(driver))
     return driver
+
+
+# TODO: Not working.
+@pytest.fixture(scope="session")
+def messenger_driver(request):
+    driver = _start_remote_webdriver({
+        'platformName': 'Android',
+        'platformVersion': '9.0',
+        'deviceName': 'Android Emulator',
+        'noReset': True,
+        # 'appActivity': 'com.whatsapp.HomeActivity',
+        # 'appPackage': 'com.whatsapp',
+        'app': _path('apks/Messenger.apk')
+    })
+    request.addfinalizer(lambda: quit_driver(driver))
+    return driver
