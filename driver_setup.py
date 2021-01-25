@@ -55,8 +55,8 @@ def messenger_driver(request):
         'platformVersion': '9.0',
         'deviceName': 'Android Emulator',
         'noReset': True,
-        # 'appActivity': 'com.whatsapp.HomeActivity',
-        # 'appPackage': 'com.whatsapp',
+        'appActivity': 'com.facebook.orca.auth.StartScreenActivity',
+        'appPackage': 'com.facebook.orca',
         'app': _path('apks/Messengerx86.apk')
     })
     request.addfinalizer(lambda: quit_driver(driver))
