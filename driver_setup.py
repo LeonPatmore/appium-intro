@@ -57,7 +57,7 @@ def messenger_driver(request):
         'noReset': True,
         # 'appActivity': 'com.whatsapp.HomeActivity',
         # 'appPackage': 'com.whatsapp',
-        'app': _path('apks/Messenger.apk')
+        'app': _path('apks/Messengerx86.apk')
     })
     request.addfinalizer(lambda: quit_driver(driver))
     return driver
