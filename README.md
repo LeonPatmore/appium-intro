@@ -50,9 +50,7 @@ As a result, you should ensure that the APK you are using is compatible with the
 
 ### Environment Variables
 
-- `MESSENGER_EMAIL`: The email to use to connect to messenger.
-
-- `MESSENGER_PASSWORD`: The password to use to connector to messenger.
+None
 
 ## Start UI Automator
 

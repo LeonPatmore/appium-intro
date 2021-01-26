@@ -47,7 +47,6 @@ def whatsapp_driver(request):
     return driver
 
 
-# TODO: Not working.
 @pytest.fixture(scope="session")
 def messenger_driver(request):
     driver = _start_remote_webdriver({
