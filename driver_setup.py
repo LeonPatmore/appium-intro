@@ -47,7 +47,6 @@ def whatsapp_driver(request):
     return driver
 
 
-# TODO: Not working.
 @pytest.fixture(scope="session")
 def messenger_driver(request):
     driver = _start_remote_webdriver({
@@ -55,9 +54,9 @@ def messenger_driver(request):
         'platformVersion': '9.0',
         'deviceName': 'Android Emulator',
         'noReset': True,
-        # 'appActivity': 'com.whatsapp.HomeActivity',
-        # 'appPackage': 'com.whatsapp',
-        'app': _path('apks/Messenger.apk')
+        'appActivity': 'com.facebook.orca.auth.StartScreenActivity',
+        'appPackage': 'com.facebook.orca',
+        'app': _path('apks/Messengerx86.apk')
     })
     request.addfinalizer(lambda: quit_driver(driver))
     return driver

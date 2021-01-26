@@ -6,6 +6,7 @@ import time
 import pytest
 from appium.webdriver import WebElement
 from appium.webdriver.webdriver import WebDriver
+from selenium.webdriver.remote.webelement import WebElement
 
 from driver_setup import test_driver, whatsapp_driver, messenger_driver
 
