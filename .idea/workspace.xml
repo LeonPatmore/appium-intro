@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="8ddcd479-b167-40d5-b94b-55e7afae3884" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/apks/Messenger.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/driver_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_app.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="8ddcd479-b167-40d5-b94b-55e7afae3884" name="Default" comment="" />
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +32,13 @@
       <file leaf-file-name="test_app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_app.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="884">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
+=======
+            <state relative-caret-position="-296">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#9#20#0" expanded="true" />
               </folding>
@@ -40,8 +49,13 @@
       <file leaf-file-name="driver_setup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/driver_setup.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="175">
               <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+=======
+            <state relative-caret-position="901">
+              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#9#18#0" expanded="true" />
               </folding>
@@ -70,8 +84,13 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="238">
               <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+=======
+            <state relative-caret-position="476">
+              <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -98,6 +117,10 @@
       <list>
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/test.py" />
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/driver_setup.py" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test_app.py" />
         <option value="$PROJECT_DIR$/driver_setup.py" />
@@ -106,7 +129,11 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
+<<<<<<< Updated upstream
     <option name="width" value="1548" />
+=======
+    <option name="width" value="1402" />
+>>>>>>> Stashed changes
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -158,21 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_app.test_messenger">
-    <configuration name="py.test for test_app.test_button" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="appium-intro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_app.test_button&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test for test_app.test_messenger_login">
     <configuration name="py.test for test_app.test_messenger" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appium-intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,6 +198,20 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_app.test_messenger&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_app.test_messenger_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="appium-intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_app.test_messenger_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test for test_app.test_whatsapp_registration_with_invalid_us_phone" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -231,18 +258,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.py.test for test_app.test_whatsapp_signin" />
-      <item itemvalue="Python tests.py.test for test_app.test_button" />
       <item itemvalue="Python tests.py.test for test_app.test_whatsapp_registration_with_invalid_us_phone" />
       <item itemvalue="Python tests.py.test in test_app.py" />
       <item itemvalue="Python tests.py.test for test_app.test_messenger" />
+      <item itemvalue="Python tests.py.test for test_app.test_messenger_login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test for test_app.test_messenger_login" />
         <item itemvalue="Python tests.py.test for test_app.test_messenger" />
         <item itemvalue="Python tests.py.test in test_app.py" />
         <item itemvalue="Python tests.py.test for test_app.test_whatsapp_registration_with_invalid_us_phone" />
         <item itemvalue="Python tests.py.test for test_app.test_whatsapp_signin" />
-        <item itemvalue="Python tests.py.test for test_app.test_button" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +287,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< Updated upstream
     <history-entry file="py_test_for_test_app_test_whatsapp_registration_with_invalid_us_phone - 2021.01.21 at 21h 42m 43s.xml">
       <configuration name="py.test for test_app.test_whatsapp_registration_with_invalid_us_phone" configurationId="tests" />
     </history-entry>
@@ -296,13 +324,50 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29536423" />
+=======
+    <history-entry file="py_test_for_test_app_test_messenger - 2021.01.25 at 22h 18m 32s.xml">
+      <configuration name="py.test for test_app.test_messenger" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 19h 48m 27s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 19h 49m 10s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 19h 50m 46s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 19h 51m 24s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 19h 53m 33s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 19h 56m 26s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 20h 02m 28s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 20h 04m 58s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_test_app_test_messenger_login - 2021.01.26 at 20h 13m 08s.xml">
+      <configuration name="py.test for test_app.test_messenger_login" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1402" height="1047" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32697946" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3278328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3938394" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3938394" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39933994" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,44 +399,118 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
+<<<<<<< Updated upstream
       <option name="time" value="17" />
+=======
+      <option name="time" value="28" />
+>>>>>>> Stashed changes
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+<<<<<<< Updated upstream
         <expression-string>isinstance(arg, WebDriver)</expression-string>
+=======
+        <expression-string>_messenger_driver.find_elements_by_xpath(&quot;//*[contains(text(), '')]&quot;)</expression-string>
+>>>>>>> Stashed changes
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
+<<<<<<< Updated upstream
         <expression-string>list(request.node.funcargs.values())</expression-string>
+=======
+        <expression-string>[x.text for x in _messenger_driver.find_elements_by_xpath(&quot;//*[contains(text(), '')]&quot;)]</expression-string>
+>>>>>>> Stashed changes
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
+<<<<<<< Updated upstream
         <expression-string>request.node.funcargs.values()</expression-string>
+=======
+        <expression-string>[x.test for x in _messenger_driver.find_elements_by_xpath(&quot;//*[contains(text(), '')]&quot;)]</expression-string>
+>>>>>>> Stashed changes
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
+<<<<<<< Updated upstream
         <expression-string>request.node.funcargs</expression-string>
+=======
+        <expression-string>[x.tag_name for x in _messenger_driver.find_elements_by_xpath(&quot;//*[contains(text(), '')]&quot;)]</expression-string>
+>>>>>>> Stashed changes
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
+<<<<<<< Updated upstream
         <expression-string>request.node</expression-string>
+=======
+        <expression-string>_messenger_driver.find_elements_by_xpath(&quot;//tagName[@clickable='true']&quot;)</expression-string>
+>>>>>>> Stashed changes
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
+<<<<<<< Updated upstream
         <expression-string>request</expression-string>
+=======
+        <expression-string>[x for x in _messenger_driver.find_elements_by_xpath(&quot;//*[contains(text(), '')]&quot;)]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_messenger_driver.find_elements_by_xpath(&quot;//tagName[@clickable='true]&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_messenger_driver.find_elements_by_xpath(&quot;//tagName[@clickable=true]&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_messenger_driver.find_elements_by_xpath(&quot;//tagName[@clickable=`true`]&quot;)</expression-string>
+>>>>>>> Stashed changes
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.virtualenvs/appium-intro-KT7n7Yhw/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding>
+            <element signature="e#9#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pipfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -662,6 +801,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -673,16 +813,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
+=======
+    <entry file="file://$PROJECT_DIR$/driver_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#9#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/driver_setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#9#18#0" expanded="true" />
           </folding>

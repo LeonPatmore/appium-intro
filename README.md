@@ -20,6 +20,10 @@ Intended to be a simple introduction to Appium in Python, with some good example
 
 2. Run `pipenv run python -m pytest`
 
+### Environment Variables
+
+None
+
 ## Start UI Automator
 
 UI Automator is included in Android SDK tools. This can be used to get the element IDs of an app.

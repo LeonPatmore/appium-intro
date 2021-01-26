@@ -4,6 +4,7 @@
 import time
 
 import pytest
+from appium.webdriver import WebElement
 from appium.webdriver.webdriver import WebDriver
 
 from driver_setup import test_driver, whatsapp_driver, messenger_driver
@@ -62,6 +63,20 @@ def test_whatsapp_registration_with_invalid_us_phone(_whatsapp_driver):
     assert _whatsapp_driver.find_element_by_id(ANDROID_MESSAGE).text == WHATSAPP_WRONG_US_NUMBER_ERROR_TEXT
 
 
-def test_messenger(_messenger_driver):
-    a = 1
-    pass
+def test_messenger_login(_messenger_driver):
+    time.sleep(1)
+    all_elements = _messenger_driver.find_elements_by_xpath("//*[contains(text(), '')]")
+
+    def get_element_with_tag(elements: list, tag: str) -> WebElement:
+        for element in elements:
+            if element.tag_name == tag:
+                return element
+        raise Exception("Could not find element with tag [ {} ]".format(tag))
+
+    phone = get_element_with_tag(all_elements, "Phone Number or Email")
+    phone.send_keys("a")
+    password = get_element_with_tag(all_elements, "Password")
+    password.send_keys("b")
+    login = get_element_with_tag(all_elements, "LOG IN")
+    login.click()
+    time.sleep(5)
