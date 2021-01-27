@@ -57,3 +57,9 @@ None
 UI Automator is included in Android SDK tools. This can be used to get the element IDs of an app.
 
 1. `C:\Users\Leon\AppData\Local\Android\Sdk\tools\bin\uiautomatorviewer.bat`
+
+## Running Lint
+
+1. Ensure you have installed the dev packages: `pipenv install -d`.
+
+2. Run flake8: `pipenv run python -m flake8`
