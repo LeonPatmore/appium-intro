@@ -1,15 +1,21 @@
 version: 2.1
 orbs:
   pipenv: frameio/pipenv@0.17.3
-executors:
-  pipenv/python:
-    tag: 3.6
-workflows:
+jobs:
   buildAndTest:
-    jobs:
+    executor: << parameters.e >>
+    parameters:
+      e:
+        type: executor
+    steps:
       - pipenv/install:
           args: -d
       - pipenv/shell:
           args: python -m flake8
-          requires:
-            - pipenv/install
+workflows:
+  buildAndTest:
+    jobs:
+      - buildAndTest:
+          e:
+            name: pipenv/python
+            tag: "3.6"
