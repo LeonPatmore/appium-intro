@@ -8,8 +8,9 @@ jobs:
       e:
         type: executor
     steps:
+      - checkout
       - pipenv/install:
-          args: -d
+          args: -d --ignore-pipfile
       - pipenv/shell:
           args: python -m flake8
 workflows:
