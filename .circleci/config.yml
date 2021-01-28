@@ -1,0 +1,12 @@
+version: 2.1
+orbs:
+  pipenv: frameio/pipenv@0.17.3
+workflows:
+  buildAndTest:
+    jobs:
+      - pipenv/build:
+          args: -d
+      - pipenv/shell:
+          args: python -m flake8
+          requires:
+            - pipenv/build
