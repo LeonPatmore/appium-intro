@@ -1,5 +1,7 @@
 # Appium Intro
 
+[![LeonPatmore](https://circleci.com/gh/LeonPatmore/appium-intro.svg?style=shield)](<https://github.com/LeonPatmore/appium-intro>)
+
 Intended to be a simple introduction to Appium in Python, with some good examples. All examples are using Android apps.
 
 ## Requirements
