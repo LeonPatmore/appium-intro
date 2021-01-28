@@ -6,7 +6,9 @@ workflows:
     jobs:
       - pipenv/install:
           args: -d
+          tag: 3.6
       - pipenv/shell:
           args: python -m flake8
+          tag: 3.6
           requires:
             - pipenv/install
